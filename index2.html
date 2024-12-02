@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MainCafe</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="cs/estilosMain.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor1">
+            <div class="contenedor1 One">
+                <!--Para el soporte al cliente-->
+                <div class="soporte-cliente">
+                    <i class="ph ph-headset"></i>
+                    <div class="contentido-soporte-cliente">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">123-456-789</span>
+                    </div>
+                </div>
+                <!--Para el logo-->
+
+                <div class="contenedor-logo">
+                    <i class="ph ph-books"></i>
+                    <h1 class="logo"><a href="/">Eat Books</a></h1>
+                </div>
+
+                <div class="contenedor-usuario">
+                    <i class="ph ph-shopping-cart"></i>
+                    <i class="ph ph-user" type="button" class="back-button"
+                        onclick="location.href='RegistroIndex.html'"></i>
+                    <div class="contenido-carrito-compra">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-navbar">
+            <nav class="navbar contenido">
+                <i class="ph ph-list"></i>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Poesia</a></li>
+                    <li><a href="#">Ficcion</a></li>
+                    <li><a href="#">Mas</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                </ul>
+
+                <form class="buscar-form">
+                    <input type="search" placeholder="Buscar...">
+                    <button class="btn-buscar">
+                        <i class="ph ph-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="contenido-banner">
+            <p>Devora libros</p>
+            <h2>Tu lugar seguro <br> EATBOOKS </h2>
+            <a href="#">Comprame un libro :-D</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="ph ph-airplane-takeoff"></i>
+                <div class="feature-content">
+                    <span>Envio gratuito a nivel nacional</span>
+                    <p>Pedidos superiores a Bs. 200</p>
+                </div>
+                <i class="ph ph-wallet"></i>
+                <div class="feature-content">
+                    <span>Reembolso</span>
+                    <p>100% garantia de devolucion de su dinero</p>
+                </div>
+                <i class="ph ph-gift"></i>
+                <div class="feature-content">
+                    <span>Tarjeta de regalo especial</span>
+                    <p>Ofrece bonos especiales con regalo</p>
+                </div>
+                <i class="ph ph-phone"></i>
+                <div class="feature-content">
+                    <span>Servicio al cliente 24/7</span>
+                    <p>Llamenos 24/7 ante cualquier duda o consulta</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="container top-categories"><br>
+        <h1 class="titulo-1">Mejores Categorias</h1>
+        <div class="container-categorias">
+            <div class="tarjetas-categorias categoria-biografias">
+                <nav>
+                    <a href="./mejores categorías/biografia.html">Biografías</a>
+                </nav>
+
+            </div>
+            <div class="tarjetas-categorias categoria-poesia">
+                <nav>
+                    <a href="./mejores categorías/poesia.html">Poesía</a>
+                </nav>
+            </div>
+            <div class="tarjetas-categorias categoria-ficcion">
+                <nav>
+                    <a href="./mejores categorías/ficcion.html">Ficción</a>
+                </nav>
+            </div>
+            <div class="tarjetas-categorias categoria-romance">
+                <nav>
+                    <a href="./mejores categorías/romance.html">Romance</a>
+                </nav>
+            </div>
+            <div class="tarjetas-categorias categoria-terror">
+                <nav>
+                    <a href="./mejores categorías/terror.html">Terror</a>
+                </nav>
+            </div>
+            <div class="tarjetas-categorias categoria-investigación">
+                <nav>
+                    <a href="./mejores categorías/suspenso.html">Suspenso</a>
+                </nav>
+            </div>
+            <div class="tarjetas-categorias categoria-comedia">
+                <nav>
+                    <a href="./mejores categorías/comedia.html">Comedia</a>
+                </nav>
+            </div>
+            <div class="tarjetas-categorias categoria-teatro">
+                <nav>
+                    <a href="./mejores categorías/teatro.html">Teatro</a>
+                </nav>
+            </div>
+            <div class="tarjetas-categorias categoria-darkromance">
+                <nav>
+                    <a href="./mejores categorías/darkromance.html" style="text-align: center;">Dark Romance</a>
+                </nav>
+            </div><br>
+        </div>
+    </section>
+
+    <section class="contenido productos-top">
+        <h1 class="titulo-1">Mejores libros</h1>
+
+        <div class="container-opciones">
+            <span class="activo">Destacados</span>
+            <span>Mas recientes</span>
+            <span>Mejores Vendidos</span>
+        </div>
+
+        <div class="container-productos">
+            <!--Producto 1 -->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="Images/elFabricante.jpg" alt="Shatter Me">
+                    <span class="discount">-13%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="ph ph-eye"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-heart"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-git-diff"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-dot-outline"></i>
+                    </div>
+                    <h3>Fabricante de lagrimas</h3>
+                    <span class="add-cart">
+                        <i class="ph ph-shopping-cart"></i>
+                    </span>
+                    <p class="price">Bs. 52.20 <span>Bs. 60.00</span></p>
+                </div>
+            </div>
+            <!--Producto 1 -->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="Images/shatterme.jpg" alt="Shatter Me">
+                    <span class="discount">-13%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="ph ph-eye"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-heart"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-git-diff"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-dot-outline"></i>
+                    </div>
+                    <h3>Shatter Me</h3>
+                    <span class="add-cart">
+                        <i class="ph ph-shopping-cart"></i>
+                    </span>
+                    <p class="price">Bs. 52.20 <span>Bs. 60.00</span></p>
+                </div>
+            </div>
+
+            <!--Producto 1 -->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="Images/tatuador.jpg" alt="Shatter Me">
+                    <span class="discount">-13%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="ph ph-eye"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-heart"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-git-diff"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-dot-outline"></i>
+                    </div>
+                    <h3>El tatuador de Auschwitz</h3>
+                    <span class="add-cart">
+                        <i class="ph ph-shopping-cart"></i>
+                    </span>
+                    <p class="price">Bs. 52.20 <span>Bs. 60.00</span></p>
+                </div>
+            </div>
+
+            <!--Producto 1 -->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="Images/atodosloschicos.jpg" alt="Shatter Me">
+                    <span class="discount">-13%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="ph ph-eye"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-heart"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-git-diff"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-dot-outline"></i>
+                    </div>
+                    <h3>A todos los chicos de los que me enamore</h3>
+                    <span class="add-cart">
+                        <i class="ph ph-shopping-cart"></i>
+                    </span>
+                    <p class="price">Bs. 52.20 <span>Bs. 60.00</span></p>
+                </div>
+            </div>
+
+            <!--Producto 1 -->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="Images/hushhush.jpg" alt="Shatter Me">
+                    <span class="discount">-13%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="ph ph-eye"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-heart"></i>
+                        </span>
+                        <span>
+                            <i class="ph ph-git-diff"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-star"></i>
+                        <i class="ph ph-dot-outline"></i>
+                    </div>
+                    <h3>Hush Hush</h3>
+                    <span class="add-cart">
+                        <button class="bott1">
+                            <i class="ph ph-shopping-cart"></i>
+                        </button>
+                        <i class="ph ph-shopping-cart"></i>
+                    </span>
+                    <p class="price">Bs. 52.20 <span>Bs. 60.00</span></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <main class="menu-contenido">
+        <section class="contenido top-categorias">
+
+        </section>
+
+
+        <section id="productos">
+            <div class="container">
+                <h2 class="titulo-1">Nuestra Seleccion</h2>
+                <div class="productos-grid">
+                    <div class="producto-card">
+                        <img src="Images/PODER.jpg" alt="Producto 1">
+                        <h3>SUPERACION</h3>
+                        <p>Libros enfocados a la motivacion y la vida.</p>
+                        <a href="#" class="btn-producto">Ver más</a>
+                    </div>
+                    <div class="producto-card">
+                        <img src="Images/MENTIROSOS.jpg" alt="Producto 2">
+                        <h3>NOVELAS</h3>
+                        <p>Libros para adentrarte y vivir emociones de felicidad.</p>
+                        <a href="#" class="btn-producto">Ver más</a>
+                    </div>
+                    <div class="producto-card">
+                        <img src="Images/AQUILES.jpg" alt="Producto 3">
+                        <h3>LIBROS</h3>
+                        <p>Buenos libros.</p>
+                        <a href="#" class="btn-producto">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <div class="container">
+                <h2 class="titulo-2">Lo que opinan nuestros clientes</h2>
+                <div class="testimonios-grid">
+                    <div class="testimonio-card">
+                        <p>"Increibles precios!"</p>
+                        <h4>- Juan Pérez</h4>
+                    </div>
+                    <div class="testimonio-card">
+                        <p>"Excelente servicio. Tiene una variedad de libros muy buena."</p>
+                        <h4>- María López</h4>
+                    </div>
+                    <div class="testimonio-card">
+                        <p>"Me encantó la atención al detalle."</p>
+                        <h4>- Sofía Martínez</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-banner">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="Images/icono.png" alt="EATBOOKS">
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Contáctanos</h3>
+                        <form>
+                            <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <footer>
+            <div class="container">
+                <div class="footer-info">
+                    <p>EATBOOKS</p>
+                    <p>UNIVALLE</p>
+                    <p>Tel.: 123-456-789</p>
+                </div>
+                <p>© 2024 Tu Sitio Web de Libros.</p>
+                <div class="footer-redes">
+                    <i class="ph-bold ph-facebook-logo" href="#"></i>
+                    <i class="ph-bold ph-instagram-logo" href="#"></i>
+                    <i class="ph-bold ph-tiktok-logo" href="#"></i>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+
+    <script src="https://kit.fontawesome.com/9feaece5d6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
